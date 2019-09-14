@@ -12,10 +12,16 @@ body {
   box-sizing: border-box;
   border: solid 13px #000;
   overflow-y: scroll;
-  }.contents {
-    padding: 0px 150px 8%;
-    max-width: 1000px;
   }
+
+.top-header {
+  border-bottom: 200px solid transparent;
+  border-left: 770px solid #f4f4f3;
+}
+.contents {
+  width: 960px;
+  margin: 0px auto 200px auto;
+}
 
 .title {
   font-size: 60px;
@@ -33,7 +39,7 @@ h3 span {
 .header {
   position: relative;
   margin: 0 auto 250px;
-  padding: 150px 8%;
+  padding: 50px 0px 8%;
   max-width: 1000px;
 }
 
@@ -59,3 +65,21 @@ h3 span {
   border-left: 50px transparent solid;
   z-index: -1;
   }
+
+@media screen and (max-width: 767px) {
+  .wrapper {
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    left: 5px;
+    border-width: 8px;
+  }
+  .contents {
+    width: 86%;
+    margin: 40px auto;
+  }
+  .title {
+    font-size: 28px;
+    letter-spacing: 0.3em;
+  }
+}
