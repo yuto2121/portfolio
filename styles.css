@@ -23,11 +23,12 @@ body {
   margin: 0px auto 200px auto;
 }
 
-.title {
-  font-size: 60px;
-  font-weight: 700;
-  letter-spacing: 0.5em;
-  line-height: 1.5;
+.my-name {
+  max-width: 100%;
+}
+
+.description {
+  
 }
 
 h3 span {
@@ -39,7 +40,7 @@ h3 span {
 .header {
   position: relative;
   margin: 0 auto 250px;
-  padding: 50px 0px 8%;
+  padding: 10px 0px 8%;
   max-width: 1000px;
 }
 
@@ -74,9 +75,13 @@ h3 span {
     left: 5px;
     border-width: 8px;
   }
+  .top-header {
+    border-bottom: 50px solid transparent;
+    border-left: 250px solid #f4f4f3;
+  }
   .contents {
     width: 86%;
-    margin: 40px auto;
+    margin: 10px auto;
   }
   .title {
     font-size: 28px;
